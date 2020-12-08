@@ -1,3 +1,5 @@
+<h3 align="center">Contact Info</h3>
+<p align="center">Email: christhu@oregonstate.edu       Phone:(503)410-9280</p>
 
 <h3>About</h3> 
 

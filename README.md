@@ -1,7 +1,7 @@
 <h3 align="center">Contact Info</h3>
 <p align="center">Email: christhu@oregonstate.edu</p>
-<p>Phone: (503)410-9280</p>
-<p>Linkedin: <a href="https://www.linkedin.com/in/hunter-christiansen-59835776/">Hunter Christiansen</a></p>
+<p align="center">Phone: (503)410-9280</p>
+<p align="center">Linkedin: <a href="https://www.linkedin.com/in/hunter-christiansen-59835776/">Hunter Christiansen</a></p>
 
 <h3>About</h3> 
 

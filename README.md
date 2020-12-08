@@ -1,5 +1,6 @@
 ## About
     <p>I am a senior computer science student at Oregon State University working towards a bachelor's degree in Artificial Intelligence</p>
+    
   ## Portfolio
   
 <a href="https://github.com/hchrist2010/ModularEncryptionDaemon">Modular Encryption Daemon</a>

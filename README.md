@@ -27,9 +27,8 @@
     </p>
     <h4><a href="https://github.com/hchrist2010/CustomFlutterGeofencing">CustomFlutterGeofencing</a></h4>
     <p>
-      This mobile application was created for my senior capstone project to explore the location and geofencing capabilities of the <a href ="https://pub.dev/packages/location>Location"</a> package for
-      Google's Flutter SDK.
-      The home screen presents the user with a constant stream of their GPS coordinates, followed by the ability to create custom geofencing objects.
+      This mobile application was created for my senior capstone project to explore the location and geofencing capabilities of the 
+      <a href="https://pub.dev/packages/location">Location</a> package for Google's Flutter SDK.The home screen presents the user with a constant stream of their GPS     coordinates, followed by the ability to create custom geofencing objects.
       The user is able to create these objects by capturing their current point, as soon as the user has captured at least 3 points, they can press the Create Object button which will
       transform those points into an object. This is done by creating a linear equation between two points to create a virtual line in space. This also contains a min/max of the latitude and longitude
       for the entire object as well as each line. The user is able to clear all objects and points from the home screen. When the user presses the GeoFence button, they are navigated to a screen

@@ -1,5 +1,5 @@
 ## About
-    <p>I am a senior computer science student at Oregon State University working towards a bachelor's degree in Artificial Intelligence</p>
+    I am a senior computer science student at Oregon State University working towards a bachelor's degree in Artificial Intelligence
     
   ## Portfolio
   

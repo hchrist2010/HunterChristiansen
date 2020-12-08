@@ -1,4 +1,3 @@
-<h1> Hunter Christiansen</h1>
 <h3>About</h3> 
 <p>I am a senior computer science student at Oregon State University working towards a bachelor's degree in Artificial Intelligence</p>    
 <h3>Portfolio</h3>
@@ -11,11 +10,13 @@
       opt_dec_d works the same as opt_enc_d, it is a process run in the background that can decrypt a file that was previously encrypted by otp_enc_d using the same keygen.
       The encryption and decryption programs are capable of running 5 processes simultaneously.
 </p>
+
 <h4><a href="https://github.com/hchrist2010/SmallShell">Small Shell</a></h4>
 <p>Small Shell is a simplified shell written in C. The shell functionally is very similar to bash,
         it allows for file navigation as well as the execution of simple commands such as "cat", "ls", and "echo".
         The user can also launch programs from the shell and can run anything either in the foreground or the background.
 </p>
+
 <h4><a href="https://github.com/hchrist2010/WasteAGram">WasteAGram</a></h4>
 <p>
       WasteAGram is an android mobile application that is used to record food waste. This application is meant to be used by multiple users at a time, although it is entirely anonymous.

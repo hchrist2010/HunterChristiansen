@@ -1,7 +1,10 @@
 <h1> Hunter Christiansen</h1>
   <h3>About</h3>
+  
     <p>I am a senior computer science student at Oregon State University working towards a bachelor's degree in Artificial Intelligence</p>
+    
   <h3>Portfolio</h3>
+  
     <h4><a href="https://github.com/hchrist2010/ModularEncryptionDaemon">Modular Encryption Daemon</a></h4>
     <p>The Modular Encryption Daemon contains three programs. A keygen, an encryption and a decryption program.
       These programs are not actually Daemons but function very similarly to one.

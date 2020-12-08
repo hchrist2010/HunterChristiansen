@@ -11,12 +11,12 @@
       opt_dec_d works the same as opt_enc_d, it is a process run in the background that can decrypt a file that was previously encrypted by otp_enc_d using the same keygen.
       The encryption and decryption programs are capable of running 5 processes simultaneously.
     </p>
-    <h4><a href=https://github.com/hchrist2010/SmallShell>Small Shell</a></h4>
+    <h4><a href="https://github.com/hchrist2010/SmallShell">Small Shell</a></h4>
       <p>Small Shell is a simplified shell written in C. The shell functionally is very similar to bash,
         it allows for file navigation as well as the execution of simple commands such as "cat", "ls", and "echo".
         The user can also launch programs from the shell and can run anything either in the foreground or the background.
       </p>
-    <h4><a href=https://github.com/hchrist2010/WasteAGram>WasteAGram</a></h4>
+    <h4><a href="https://github.com/hchrist2010/WasteAGram">WasteAGram</a></h4>
     <p>
       WasteAGram is an android mobile application that is used to record food waste. This application is meant to be used by multiple users at a time, although it is entirely anonymous.
        When a user is about to throw out any food, they can use this app to take a picture of it and record the amount about to go to waste.
@@ -25,9 +25,9 @@
        If the user selects an individual post, they are taken to a page that will display the photo of the waste, the date it was created, the amount,
        and the GPS location of the user when they created the post. This application was created using the Flutter SDK and utilizes the firebase cloud server for persistent storage.
     </p>
-    <h4><a href=https://github.com/hchrist2010/CustomFlutterGeofencing>CustomFlutterGeofencing</a></h4>
+    <h4><a href="https://github.com/hchrist2010/CustomFlutterGeofencing">CustomFlutterGeofencing</a></h4>
     <p>
-      This mobile application was created for my senior capstone project to explore the location and geofencing capabilities of the <a href =https://pub.dev/packages/location>Location</a> package for
+      This mobile application was created for my senior capstone project to explore the location and geofencing capabilities of the <a href ="https://pub.dev/packages/location>Location"</a> package for
       Google's Flutter SDK.
       The home screen presents the user with a constant stream of their GPS coordinates, followed by the ability to create custom geofencing objects.
       The user is able to create these objects by capturing their current point, as soon as the user has captured at least 3 points, they can press the Create Object button which will

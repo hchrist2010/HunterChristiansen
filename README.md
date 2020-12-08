@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="style.css">
-    </head?
-    <body>
 <h1> Hunter Christiansen</h1>
   <h3>About</h3>
     <p>I am a senior computer science student at Oregon State University working towards a bachelor's degree in Artificial Intelligence</p>
@@ -45,5 +39,4 @@
       Currently, this portion of the application is set up to use some test data I created so I didn't have to walk around whenever I wanted to test the application, but it can be easily modified
       to use the location stream and custom objects created by the user.
     </p>
-    </body>
-</html>
+

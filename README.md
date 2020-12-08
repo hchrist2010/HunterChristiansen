@@ -1,6 +1,7 @@
-##About
+## About
     <p>I am a senior computer science student at Oregon State University working towards a bachelor's degree in Artificial Intelligence</p>
-  ##Portfolio
+  ## Portfolio
+  
 <a href="https://github.com/hchrist2010/ModularEncryptionDaemon">Modular Encryption Daemon</a>
     <p>The Modular Encryption Daemon contains three programs. A keygen, an encryption and a decryption program.
       These programs are not actually Daemons but function very similarly to one.

@@ -8,9 +8,8 @@
 </p>
 <p>The keygen will create a string of capital letters and spaces of a length defined by the user.</p>
 <p>otp_enc_d is the decryption daemon. When starting this program, the user will define a listening port and run it in the background. When the user wishes to encrypt a file, the user calls this program and passes in the file to be encrypted, the key, and the port assigned to otp_enc followed by a redirect to the file destination.</p>
-<p>opt_dec_d works the same as opt_enc_d, it is a process run in the background that can decrypt a file that was previously encrypted by otp_enc_d using the same keygen.
-      The encryption and decryption programs are capable of running 5 processes simultaneously.
-</p>
+<p>opt_dec_d works the same as opt_enc_d, it is a process run in the background that can decrypt a file that was previously encrypted by otp_enc_d using the same keygen.</p>
+<p>The encryption and decryption programs are capable of running 5 processes simultaneously.</p>
 
 <h4><a href="https://github.com/hchrist2010/SmallShell">Small Shell</a></h4>
 <p>Small Shell is a simplified shell written in C. The shell functionally is very similar to bash,

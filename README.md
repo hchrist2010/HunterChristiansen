@@ -5,7 +5,7 @@
 
 <h3>About</h3> 
 
-<p>I am a senior computer science student at Oregon State University. Throughout college and my personal projects, I have gained experience in a wide variety of areas, but most of my experience has focused around mobile development. In June 2021 I will start an internship at Cambia Health Solutions where I will be working on backend web development.</p>
+<p>I am a senior computer science student at Oregon State University. Throughout college and my personal projects, I have gained experience in a wide variety of areas, but most of my experience has focused around mobile development. In June 2021 I will start an internship at Cambia Health Solutions where I will be doing backend web development.</p>
 
 <h3>Portfolio</h3>
 

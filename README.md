@@ -5,9 +5,16 @@
 
 <h3>About</h3> 
 
-<p>I am a senior computer science student at Oregon State University working towards a bachelor's degree in Artificial Intelligence</p>    
+<p>I am a senior computer science student at Oregon State University. Throughout college and my personal projects, I have gained experience in a wide variety of areas, but most of my experience has focused around mobile development. In June 2021 I will start an internship at Cambia Health Solutions where I will be working on backend web development.</p>
 
 <h3>Portfolio</h3>
+
+<h4>Custom Flutter Geofencing</h4>
+<p>This was my senior capstone project. My team and I were tasked with building a proof of concept mobile application that would dynamically load data based on whether the user was inside or outside of a defined area. These areas are meant to surround locations like buildings or campuses. The primary challenge we faced was to find a way to represent these abstract areas using only GPS coordinates.</p>
+
+<p>During development, I created an algorithm that can determine if the user is inside or outside one of these shapes using only the coordinates of the corners of each area and the user’s current location. I did this by defining a side of the shape using a linear equation that will determine what side of the boundary the user is on. By taking an aggregate of these measurements, I was able to determine if the user is inside, if they are not, I was also able to determine how far away the object is. This whole process functions in O(n) time.</p>
+
+<p>To store all of the data, we created a firebase backend. This contains the GPS coordinates that make up each object as well as some information tied to each object that can be presented to the user when it is determined that they are inside an object or very near one.</p>
 
 <h4><a href="https://github.com/hchrist2010/ModularEncryptionDaemon">Modular Encryption Daemon</a></h4>
 
@@ -32,12 +39,3 @@
 <p>These posts are then displayed to the homepage where there is a newsfeed of previous posts and a running total amount. Each feed item shows the date the post was created and the amount of waste.</p>
 <p>If the user selects an individual post, they are taken to a page that will display the photo of the waste, the date it was created, the amount,
        and the GPS location of the user when they created the post. This application was created using the Flutter SDK and utilizes the firebase cloud server for persistent storage.</p>
-       
-<h4><a href="https://github.com/hchrist2010/CustomFlutterGeofencing">CustomFlutterGeofencing</a></h4>
-<p>This mobile application was created for my senior capstone project to explore the location and geofencing capabilities of the 
-      <a href="https://pub.dev/packages/location">Location</a> package for Google's Flutter SDK.</p>
-<p>The home screen presents the user with a constant stream of their GPS coordinates, followed by the ability to create custom geofencing objects.</p>
-<p>The user is able to create these objects by capturing their current point, as soon as the user has captured at least 3 points, they can press the Create Object button which will transform those points into an object. This is done by creating a linear equation between two points to create a virtual line in space. This also contains a min/max of the latitude and longitude for the entire object as well as each line.</p>
-<p>The user is able to clear all objects and points from the home screen.</p>
-<p>When the user presses the GeoFence button, they are navigated to a screen that will alert them as to whether they are in an object or not. This is done by applying the user's current position to the linear equations created during the object creation process. If the user's location is within the min/max boundary of the line and when applied to the equation is less than the constant defined during creation, the user is directly west of the current line. If the user is west of an odd number of lines, then we know the user is inside the area defined by the object.</p>
-<p>Currently, this portion of the application is set up to use some test data I created so I didn't have to walk around whenever I wanted to test the application, but it can be easily modified to use the location stream and custom objects created by the user.</p>

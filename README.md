@@ -1,3 +1,6 @@
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
+
 <h3 align="center">Contact Info</h3>
 <p align="center">Email: <a href="mailto: Hchristiansen2010@gmail.com">Hchristiansen2010@gmail.com</a></p>
 <p align="center">Phone: (503)410-9280</p>

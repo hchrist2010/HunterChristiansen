@@ -9,13 +9,6 @@
 
 <h3>Portfolio</h3>
 
-<h4>Custom Flutter Geofencing</h4>
-<p>This was my senior capstone project. My team and I were tasked with building a proof of concept mobile application that would dynamically load data based on whether the user was inside or outside of a defined area. These areas are meant to surround locations like buildings or campuses. The primary challenge we faced was to find a way to represent these abstract areas using only GPS coordinates.</p>
-
-<p>During development, I created an algorithm that can determine if the user is inside or outside one of these shapes using only the coordinates of the corners of each area and the user’s current location. I did this by defining a side of the shape using a linear equation that will determine what side of the boundary the user is on. By taking an aggregate of these measurements, I was able to determine if the user is inside, if they are not, I was also able to determine how far away the object is. This whole process functions in O(n) time.</p>
-
-<p>To store all of the data, we created a firebase backend. This contains the GPS coordinates that make up each object as well as some information tied to each object that can be presented to the user when it is determined that they are inside an object or very near one.</p>
-
 <h4><a href="https://github.com/hchrist2010/ModularEncryptionDaemon">Modular Encryption Daemon</a></h4>
 
 <p>The Modular Encryption Daemon contains three programs. A keygen, an encryption and a decryption program. These programs are not actually Daemons but function very similarly to one.</p>
@@ -39,3 +32,10 @@
 <p>These posts are then displayed to the homepage where there is a newsfeed of previous posts and a running total amount. Each feed item shows the date the post was created and the amount of waste.</p>
 <p>If the user selects an individual post, they are taken to a page that will display the photo of the waste, the date it was created, the amount,
        and the GPS location of the user when they created the post. This application was created using the Flutter SDK and utilizes the firebase cloud server for persistent storage.</p>
+       
+       <h4>Custom Flutter Geofencing</h4>
+<p>This was my senior capstone project. My team and I were tasked with building a proof of concept mobile application that would dynamically load data based on whether the user was inside or outside of a defined area. These areas are meant to surround locations like buildings or campuses. The primary challenge we faced was to find a way to represent these abstract areas using only GPS coordinates.</p>
+
+<p>During development, I created an algorithm that can determine if the user is inside or outside one of these shapes using only the coordinates of the corners of each area and the user’s current location. I did this by defining a side of the shape using a linear equation that will determine what side of the boundary the user is on. By taking an aggregate of these measurements, I was able to determine if the user is inside, if they are not, I was also able to determine how far away the object is. This whole process functions in O(n) time.</p>
+
+<p>To store all of the data, we created a firebase backend. This contains the GPS coordinates that make up each object as well as some information tied to each object that can be presented to the user when it is determined that they are inside an object or very near one.</p>

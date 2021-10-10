@@ -1,4 +1,6 @@
-<img src="https://github.com/hchrist2010/HunterChristiansen/blob/main/DSCF7076.JPG?raw=true" width = "200"/>
+<p align="center">
+       <img src="https://github.com/hchrist2010/HunterChristiansen/blob/main/DSCF7076.JPG?raw=true" width = "200"/>
+</p>
 
 <h3 align="center">Contact Info</h3>
 <p align="center">Email: <a href="mailto: Hchristiansen2010@gmail.com">Hchristiansen2010@gmail.com</a></p>

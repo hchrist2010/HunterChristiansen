@@ -1,11 +1,11 @@
 <h3 align="center">Contact Info</h3>
-<p align="center">Email: <a href="mailto: christhu@oregonstate.edu">christhu@oregonstate.edu</a></p>
+<p align="center">Email: <a href="mailto: Hchristiansen2010@gmail.com">Hchristiansen2010@gmail.com</a></p>
 <p align="center">Phone: (503)410-9280</p>
 <p align="center">Linkedin: <a href="https://www.linkedin.com/in/hunter-christiansen-59835776/">Hunter Christiansen</a></p>
 
 <h3>About</h3> 
 
-<p>I am a senior computer science student at Oregon State University. Throughout college and my personal projects, I have gained experience in a wide variety of areas, but most of my experience has focused around mobile development. In June 2021 I will start an internship at Cambia Health Solutions where I will be doing backend web development.</p>
+<p>I recently graduated (2021) from Oregon State University where I obtained a Bachelor's of Computer Science. Throughout college and my personal projects I have gained experience in a wide variety of areas including web application development, mobile, and data science/artificial intelligence.</p>
 
 <h3>Portfolio</h3>
 

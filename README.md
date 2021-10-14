@@ -37,7 +37,7 @@
 <p>If the user selects an individual post, they are taken to a page that will display the photo of the waste, the date it was created, the amount,
        and the GPS location of the user when they created the post. This application was created using the Flutter SDK and utilizes the firebase cloud server for persistent storage.</p>
        
-<h4>Custom Flutter Geofencing</h4>
+<h4><a href="https://github.com/hchrist2010/CS461">Custom Flutter Geofencing</a></h4>
 <p>This was my senior capstone project. My team and I were tasked with building a proof of concept mobile application that would dynamically load data based on whether the user was inside or outside of a defined area. These areas are meant to surround locations like buildings or campuses. The primary challenge we faced was to find a way to represent these abstract areas using only GPS coordinates.</p>
 
 <p>During development, I created an algorithm that can determine if the user is inside or outside one of these shapes using only the coordinates of the corners of each area and the user’s current location. I did this by defining a side of the shape using a linear equation that will determine what side of the boundary the user is on. By taking an aggregate of these measurements, I was able to determine if the user is inside, if they are not, I was also able to determine how far away the object is. This whole process functions in O(n) time.</p>
